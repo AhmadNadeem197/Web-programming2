@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+fieldset {
+    border: 2px solid black;
+    padding: 20px;
+    width: 300px;
+    background-color: white;
+    margin: 5em auto;
+}
+legend {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: black;
+}
+label {
+    display: block;
+    margin-top: 10px;
+    font-size: 1em;
+    color: #333;
+}
+input[type="text"], input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.register-link {
+    margin-top: 10px;
+    text-align: center;
+}
+.register-link a {
+    text-decoration: underline;
+    color: black;
+    font-weight: bold;
+}
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 10px;
+}
+button:hover {
+    background-color: #333;
+}

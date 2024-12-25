@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #171f17;
+    color: white;
+    padding: 1rem;
+}
+
+.header-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header h1 {
+    font-size: 4.5rem; /* Increased font size */
+    font-weight: 700; /* Bold font */
+    font-family: 'Quicksand', 'Arial Rounded MT Bold', 'Arial', sans-serif; /* Use Quicksand if available */
+    margin: 0;
+    color: white;
+}
+
+header .logo {
+    width: 100px; /* Increased width */
+    height: 100px; /* Increased height */
+    background-color: white;
+    border-radius: 50%;
+}
+
+header .tagline {
+    font-size: 1.5rem;
+    font-family: 'Dancing Script', cursive; /* Apply Dancing Script font */
+    color: white;
+    margin-top: 0.5rem;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: rgb(23, 45, 18);
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 1.2rem;
+    font-family: 'Quicksand', sans-serif; /* Use Quicksand if available */
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #FFD700;
+}
+
+/* Vision Section */
+.vision-section {
+    text-align: center;
+    padding: 1rem 0; /* Reduced padding */
+    color: #333; /* Dark text for readability */
+}
+
+.vision-section h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: 'Quicksand', sans-serif; /* Use Quicksand if available */
+    margin-bottom: 1rem;
+}
+
+.vision-section p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+    font-family: 'Roboto', sans-serif; /* Use Roboto for body text */
+}
+/* Review Section */
+.review-section {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #f4f4f9;
+    color: #333;
+    border: 2px solid black; 
+    border-radius: 20px;
+}
+
+.review-section h2 {
+    font-size: 5.5rem;
+    font-weight: 700;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 1.5rem;
+    
+}
+
+.review-section form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    border: 2px solid black; 
+    /* opacity: 50%; */
+    padding: 40px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.review-section label {
+    font-size: rem;
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.review-section input[type="text"],
+.review-section textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.review-section input[type="file"] {
+    margin-bottom: 1rem;
+}
+
+.review-section button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    color: white;
+    background-color: #101110;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.button {
+    background-color: #101110;
+}
+
+.button:hover{
+    background-color: #158130;
+}
+
+.review-section button:hover {
+    background-color: #158130;
+}
+.review-section {
+    background-image: url('review.jpg'); /* Use the image file name directly */
+    background-size: cover; /* Cover the entire section */
+    background-position: center; /* Center the image */
+    padding: 2rem 0; /* Add padding for content */
+    color: #333; /* Text color */
+    text-align: center; /* Center text */
+    width: 80%;
+    margin: 0 auto;
+}
+
+#bt-f{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #111311;
+    color: white;
+}

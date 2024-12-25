@@ -1,0 +1,41 @@
+h1{
+    text-align: center;
+}
+.contact-container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px solid black;
+}
+
+.contact-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-container ul li {
+    margin: 10px 0;
+}
+
+.contact-container ul li strong {
+    display: inline-block;
+    width: 150px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+}
+
+input,textarea,button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
